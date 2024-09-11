@@ -23,10 +23,12 @@ jobs:
 
     steps:
       - name: Checkout code
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
        # Add the ls command 
       - name: Print directory contents
-          run: ls -l /home/runner/work/assignment_1_app/assignment_1_app
+          run:  |
+            pwd
+          ls - l /home/runner/work/assignment_1_app/assignment_1_app
         # Your existing steps here
         - name: Install dependencies
             run: npm install
