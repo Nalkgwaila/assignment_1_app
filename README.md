@@ -30,4 +30,21 @@ The conclusion is that this app offers a unique and engaging way to explore hist
  
 
 UX 4 Sight. 2024.Moblie Application Design: Key Considerations for Mobile Apps, 9 September 2024[Online] Available at: Mobile Application Design: Key Considerations For Mobile Apps (ux4sight.com) 
+
+
+![image](https://github.com/user-attachments/assets/f0e76178-88fb-4bd3-ad02-866ab9206b71)
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
  
