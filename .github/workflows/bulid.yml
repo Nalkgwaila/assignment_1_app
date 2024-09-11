@@ -22,8 +22,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
       - uses: actions/checkout@v3
-
+       # Add the ls command 
+      - name: Print directory contents
+          run: ls -l /home/runner/work/assignment_1_app/assignment_1_app
+        # Your existing steps here
+        - name: Install dependencies
+            run: npm install
+        - name: Bulid
+            run: npm run bulid 
+       
       # Set Current Date As Env Variable
       - name: Set current date as env variable
         run: echo "date_today=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
